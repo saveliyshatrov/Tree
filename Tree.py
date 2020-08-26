@@ -34,7 +34,6 @@ class Tree:
         if self.right:
             self.right.printTree(counter=counter)
 
-tree = Tree(12)
 array = [random.randint(1,15) for i in range(10)]
 print(array)
 tree = Tree(array[0])
